@@ -1,0 +1,8 @@
+ (env
+   (dev
+     (c_flags -g -O0 -fsanitize=thread)
+     (flags (:standard -g -w -6-30-52))
+     (no_dynlink)
+   )
+)
+
